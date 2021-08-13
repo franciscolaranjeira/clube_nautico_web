@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+}
+
+.box{
+    border: solid;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 30px;
+}
+
+.top_nav_bar{
+    border: solid;
+    min-height: 15vh; 
+}
+
+.left_nav_bar{
+    border: solid;
+    min-height: 80vh;
+    float: left;
+    min-width: 30vh;
+    margin-top: 30px;
+}
