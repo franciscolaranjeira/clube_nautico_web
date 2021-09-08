@@ -1,23 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	font-family: Raleway, sans-serif;
+}
+
 body{
     background: linear-gradient(90deg, #C7C5F4, #776BCC);
 }
 
-.box{
-    border: solid;
+.container{
     justify-content: center;
-    min-height: 100vh;
     margin: 30px;
+    min-width: fit-content;
+    background-color: #ffffff;
 }
 
 .top_nav_bar{
-    border: solid;
-    min-height: 15vh; 
+    min-height: 15vh;
+    justify-content: center;
+    display: flex;
 }
 
-.left_nav_bar{
-    border: solid;
-    min-height: 80vh;
+.content-nav-bar{
+    min-height: 10vh;
+    justify-content: center;
+    display: flex;
+}
+
+.content{
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#info-socios{
     float: left;
-    min-width: 30vh;
-    margin-top: 30px;
+    padding: 30px;
+}
+#mensalidades{
+    float: left;
+    padding: 30px;
+}
+#enc{
+    float: left;
+    padding: 30px;
+}
+#inserir{
+    float: left;
+    padding: 30px;
+}
+#eliminar{
+    float: left;
+    padding: 30px;
+}
+#atualizar{
+    float: left;
+    padding: 30px;
 }
